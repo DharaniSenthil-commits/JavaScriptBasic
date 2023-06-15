@@ -5,6 +5,10 @@
 let name = 'DQ';
 console.log(name);
 
+let test ;
+console.log(test);
+test = 10;
+console.log(test);
 /* cannot be a reserved key
   should be meaningful
    cannot start with a number
@@ -89,3 +93,4 @@ function Square(number)
 let output=Square(2);
 console.log(output);
 console.log(Square(5));
+

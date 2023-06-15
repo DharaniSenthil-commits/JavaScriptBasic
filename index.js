@@ -33,3 +33,24 @@ let fName ; // or
 let fsName=undefined // value not defined 
 let selectedColor = null // value can be reassigned in future 
 
+//Reference --> object,array,function
+//object
+let person={
+    name :'DQ',
+    age : 23
+    };
+
+    //dot notation
+    person.name='Dharani';
+    console.log(person.name);
+    //Bracket notation
+    person['name']='Queen';
+    console.log(person['name']);
+    //Dynamic
+    let selection='name';
+    person[selection]='ESD';
+    console.log(person[selection]);
+
+
+
+

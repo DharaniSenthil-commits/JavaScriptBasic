@@ -51,6 +51,14 @@ let person={
     person[selection]='ESD';
     console.log(person[selection]);
 
-
-
+//array 
+let selectedColors=['red','blue'];
+console.log(selectedColors);
+let colors=['red','blue'];
+console.log(colors);
+console.log(colors[0]);
+console.log(colors);
+colors[3]='green';
+colors[4]=1;
+console.log(colors)
 

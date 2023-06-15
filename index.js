@@ -62,3 +62,30 @@ colors[3]='green';
 colors[4]=1;
 console.log(colors)
 
+//function
+function greetnp(){
+    console.log("Hello");
+}
+greetnp();
+function greetonep(fName)
+{
+    console.log("Hello "+fName);
+}
+greetonep('Dharani');
+function greettwonp(fName,lName)
+{
+    console.log("Hello "+fName+" "+lName);
+}
+greettwonp("Dharani");
+greettwonp('Dharani','Senthil');
+
+
+//calculate value 
+
+function Square(number)
+{
+    return number*number ;
+}
+let output=Square(2);
+console.log(output);
+console.log(Square(5));
